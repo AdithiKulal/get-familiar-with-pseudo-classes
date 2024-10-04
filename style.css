@@ -1,0 +1,32 @@
+body{
+    background-color: springgreen;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: crimson;
+}
+a{
+  color: darkgreen;
+}
+a:hover{
+    color: green;
+}
+ul>li{
+    font-weight:bold;
+}
+h1+p{
+    background-color: darkred;
+    padding: 10px;
+    border-radius:5px;
+}
+ul li:nth-child(3){
+    background-color: palegreen;
+}
+ul li::before{
+    content:"🌿";
+}
+p::first-letter{
+    font-size:200%;
+    color:crimson;
+}
